@@ -1,0 +1,17 @@
+.text-theme-1000{
+  color:var(--header-theme-color)
+}
+.text-header{
+  font-size:var(--text-header);
+}
+.text-content{
+  font-size:var(--text-content);
+  line-height: 1.6;
+  word-spacing:4px;
+}
+.bg-div-color{
+  background-color: var(--bg-theme-color);
+}
+.button-text{
+  font-size: var(--button-text);
+}

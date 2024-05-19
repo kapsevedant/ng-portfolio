@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+  background-image: url('./assets/images/p-b.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 60%; /* Set the height to the full viewport height */
+}
+
+.main-sub-container{
+  width: 500px; /* Set a width for the div */
+  margin: 0 auto; /* Horizontal centering */
+}

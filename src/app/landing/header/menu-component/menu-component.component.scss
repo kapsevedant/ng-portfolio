@@ -1,0 +1,23 @@
+.menu-container{
+  background-color: var(--bg-theme-color);
+}
+.menu-links{
+  cursor:pointer;
+  font-size: var(--links-text-size);
+}
+.menu-link-list:hover{
+  background-color: var(--bg-theme-color);
+}
+.menu-close-btn{
+  background-color: var(--bg-theme-color);
+  transition: background-color 0.4s ease, transform 0.5s ease;
+}
+.menu-close-btn:hover{
+  background-color: transparent;
+  transform: scale(1.2);
+  border:1px solid white;
+}
+
+.active {
+  background-color: var(--bg-theme-color);
+}
